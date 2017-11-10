@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/welcome_item_bookmarks">
+        <Preference
+                android:key="pref_remove_all_bookmarks"
+                android:title="@string/bookmark_context_menu_remove_all"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_search_history_title">
+
+        <Preference
+                android:key="pref_clear_history"
+                android:title="@string/pref_clear_history"/>
+
+        <ListPreference
+                android:key="pref_search_history_size"
+                android:title="@string/pref_search_history_size"
+                android:entries="@array/pref_search_history_size_entries"
+                android:entryValues="@array/pref_search_history_size_entries"
+                />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_advanced">
+
+        <Preference
+                android:key="pref_clear_warnings"
+                android:title="@string/pref_clear_warnings"/>
+
+        <Preference
+                android:key="pref_force_backup_restore"
+                android:title="@string/pref_force_backup_restore_title"
+                android:summary="@string/pref_force_backup_restore_summary">
+
+            <!--<intent
+                    android:action="android.intent.action.VIEW"
+                    android:targetPackage="com.package.name"
+                    android:targetClass="com.package.name.ActivityName"
+                    />-->
+
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_about">
+        <Preference
+                android:key="pref_license"
+                android:title="@string/pref_license"/>
+        <Preference
+                android:key="pref_feedback"
+                android:title="@string/pref_feedback"/>
+        <Preference
+                android:key="pref_rate_this_app"
+                android:title="@string/pref_rate_this_app"/>
+    </PreferenceCategory>
+</PreferenceScreen>

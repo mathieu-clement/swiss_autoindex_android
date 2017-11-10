@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoIndex Premium</string>
+
+    <string name="welcome_item_search">Recherche</string>
+    <string name="search_header_title">Recherche d\'un détenteur</string>
+    <string name="bookmarks_header_title">Plaques favorites</string>
+    <string name="welcome_item_bookmarks">Favoris</string>
+    <string name="welcome_item_settings">Paramètres</string>
+
+    <!-- PLATE TYPES -->
+    <string name="plate_type_automobile">Auto (plaque blanche)</string>
+    <string name="plate_type_automobile_brown">Auto (plaque brune)</string>
+    <string name="plate_type_automobile_temporary">Auto (plaque temporaire)</string>
+    <string name="plate_type_automobile_repair_shop">Auto (plaque de garage)</string>
+
+    <string name="plate_type_motorcycle">Moto (plaque blanche)</string>
+    <string name="plate_type_motorcycle_yellow">Moto (plaque jaune)</string>
+    <string name="plate_type_motorcycle_brown">Moto (plaque brune)</string>
+    <string name="plate_type_motorcycle_temporary">Moto (plaque temporaire)</string>
+    <string name="plate_type_motorcycle_repair_shop">Moto (plaque de garage)</string>
+
+    <string name="plate_type_agricultural">Agricole (plaque verte)</string>
+    <string name="plate_type_industrial">Industrielle (plaque bleue)</string>
+    <string name="plate_type_moped">Cyclomoteur (plaque jaune)</string>
+    <!-- END OF PLATE TYPES -->
+
+    <string name="search_owner_button_text">Rechercher</string>
+
+    <string name="please_wait">Veuillez patienter</string>
+    <string name="search_in_progress_message">Recherche en cours…</string>
+
+    <string name="dialog_dismiss">Fermer</string>
+
+    <string name="captcha_retrieve_dialog_error_title">Erreur</string>
+    <string name="captcha_retrieve_dialog_error_message">L\'image Captcha n\'a
+        pu être téléchargée. Ré-essayez.
+    </string>
+    <string name="captcha_decoding_failed">Erreur captcha. Consultez twitter.com/clementapps et réessayez.</string>
+    <string name="plate_owner_not_found_dialog_title">Non trouvé</string>
+    <string name="plate_owner_not_found_dialog_message">Plaque non enregistrée
+        ou détenteur non publié.
+    </string>
+    <string name="plate_owner_hidden_dialog_title">Données non publiées</string>
+    <string name="plate_owner_hidden_dialog_message">Le détenteur a demandé que
+        ses données ne soient pas publiées.
+    </string>
+
+    <string name="request_error_try_again">Requête erronée. Vérifiez la
+        connexion et ré-essayez.  Visitez twitter.com/clementapps.
+    </string>
+
+    <string name="plate_owner_bookmark">Ajouter aux favoris</string>
+    <string name="plate_owner_remove_bookmark">Retirer des favoris</string>
+    <string name="plate_owner_save_as_contact">Ajouter comme contact</string>
+    <string name="operation_ok">Opération effectuée.</string>
+    <string name="plate_owner_remove_contact">Retirer des contacts</string>
+    <string name="plate_owner_see_on_map">Voir sur la carte</string>
+    <string name="plate_owner_share">Partager</string>
+
+    <string name="bookmarks_empty_list">Aucun favori n\'a été enregistré pour
+        l\'instant.
+    </string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">Général</string>
+    <string name="pref_category_advanced">Avancé</string>
+    <string name="pref_category_about">À propos</string>
+    <string name="pref_license">Licence</string>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_rate_this_app">Noter cette application</string>
+    <string name="pref_search_history_title">Historique</string>
+    <string name="pref_clear_history">Effacer l\'historique</string>
+    <string name="pref_search_history_size">Taille maximum</string>
+    <string name="pref_force_backup_restore_title">Forcer la récupération des
+        données
+    </string>
+    <string name="pref_force_backup_restore_summary">Essayez ceci si les favoris
+        et les paramètres n\'ont pas été
+        restaurés après une ré-installation.
+    </string>
+    <string name="restore_completed_successfully">Restauration terminée avec
+        succès.
+    </string>
+    <string name="restore_failed">Erreur! La restauration a échouée.</string>
+    <string name="restore_nothing">Toutes les données sont à jour.</string>
+
+    <string name="invalid_intent_call">Lancement incorrect depuis une autre
+        application. Informez-en le développeur de
+        l\'application précédemment ouverte.
+    </string>
+
+    <string name="copied_to_clipboard">Données du détenteur copiées dans le
+        presse-papiers.
+    </string>
+
+    <string name="do_you_want_to_quit_message">Voulez-vous vraiment quitter
+        l\'application ?
+    </string>
+    <string name="pref_name_in_favorites_title">Favoris avec les noms</string>
+    <string name="plate_owner_lookup_in_phone_directory">Chercher dans
+        l\'annuaire
+    </string>
+    <string name="plate_owner_open">Ouvrir</string>
+    <string name="recent_searches_button_text">Recherches récentes</string>
+    <string name="recent_searches_more">Plus…</string>
+    <string name="history_was_cleared">Historique effacé avec succès.</string>
+    <string name="do_you_want_to_clear_history">Voulez-vous vraiment effacer
+        l\'historique de recherche?
+    </string>
+    <string name="do_you_want_to_remove_all_bookmarks">Voulez-vous vraiment effacer
+        tous les favoris?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <!-- SMS providers -->
+    <string name="sms_provider_warning_title">Avertissement</string>
+    <string name="sms_provider_warning_text">Pour répondre à votre requête, un
+        SMS doit être envoyé.\n
+
+        Une taxe de 1,00 CHF sera appliquée par renseignement par le service des
+        automobiles concerné. En cas d\'absence
+        de résultat, 0.20 CHF sera facturé.\n
+
+        Vous pouvez effectuer 5 requêtes par jour par canton, de 6h00 à 22h00,
+        sauf exceptions.\n
+
+        (Ces informations peuvent être erronées.)
+    </string>
+    <string name="sms_provider_do_not_show_warning_again">Ne plus afficher ce
+        message
+    </string>
+    <string name="sms_provider_i_understand_warning">J\'ai compris.</string>
+    <string name="sms_provider_send_receive_sending" formatted="false">SMS ("%s"
+        au %d) en cours d\'envoi…
+    </string>
+    <string name="sms_provider_send_receive_sent">Envoyé! En attente d\'une
+        réponse…
+    </string>
+    <string name="sms_provider_send_receive_unknown_response" formatted="false">
+        La réponse suivante a été reçue :
+        \n"%s".
+    </string>
+    <string name="sms_provider_send_receive_radio_off">Erreur :Pas de réseau ou
+        mode avion.
+    </string>
+    <string name="sms_provider_send_receive_received">Réponse reçue. À la
+        prochaine étape !
+    </string>
+
+    <!-- Complicated providers -->
+
+    <!-- GE -->
+    <string name="complicated_ge_text">
+        Les renseignements coûtent 10 CHF et un motif valable est nécessaire.
+    </string>
+    <string name="complicated_ge_url">http://ge.ch/vehicules/index-autos
+    </string>
+    <string name="complicated_ge_phone"></string>
+    <string name="complicated_ge_email"></string>
+
+    <!-- BS -->
+    <string name="complicated_bs_text">Recherches gratuites par e-mail</string>
+    <string name="complicated_bs_url"></string>
+    <string name="complicated_bs_phone"></string>
+    <string name="complicated_bs_email">info.mfkbs@jsd.bs.ch</string>
+
+    <!-- NW -->
+    <string name="complicated_nw_text">Recherches gratuites par e-mail et par
+        téléphone
+    </string>
+    <string name="complicated_nw_url"></string>
+    <string name="complicated_nw_phone"></string>
+    <string name="complicated_nw_email">info@vsz.ch</string>
+
+    <!-- OW -->
+    <string name="complicated_ow_text">Recherches gratuites par e-mail et par
+        téléphone
+    </string>
+    <string name="complicated_ow_url"></string>
+    <string name="complicated_ow_phone">+41 (0)41 666 66 00</string>
+    <string name="complicated_ow_email">info@vsz.ch</string>
+
+    <!-- SZ -->
+    <string name="complicated_sz_text">Recherches par e-mail et par téléphone
+    </string>
+    <string name="complicated_sz_url"></string>
+    <string name="complicated_sz_phone">+41 (0)41 819 21 43</string>
+    <string name="complicated_sz_email">vasz@sz.ch</string>
+
+    <!-- UR -->
+    <string name="complicated_ur_text">Recherches par e-mail et par téléphone
+    </string>
+    <string name="complicated_ur_url"></string>
+    <string name="complicated_ur_phone">+41 (0)41 875 28 15</string>
+    <string name="complicated_ur_email">assv@ur.ch</string>
+
+    <!-- NE -->
+    <string name="complicated_ne_text">En ligne pour possesseurs de SuisseID ou
+        par courrier postal
+    </string>
+    <string name="complicated_ne_url">
+        http://www.scan-ne.ch/route/vehicules/Pages/detenteurs.aspx
+    </string>
+    <string name="complicated_ne_phone"></string>
+    <string name="complicated_ne_email"></string>
+
+    <!--  -->
+    <!--
+    <string name="complicated__text"></string>
+    <string name="complicated__url"></string>
+    <string name="complicated__phone"></string>
+    <string name="complicated__email"></string>
+    -->
+
+    <!-- VD -->
+    <string name="complicated_vd_text">Uniquement par courrier postal sur
+        demande motivée. 20 CHF
+    </string>
+    <string name="complicated_vd_url">
+        http://www.vd.ch/themes/mobilite/automobile/plaques-dimmatriculation/
+    </string>
+    <string name="complicated_vd_phone"></string>
+    <string name="complicated_vd_email"></string>
+
+    <!-- TI -->
+    <string name="complicated_ti_text">L\'autoindex du canton du Tessin peut être consulté en ligne :</string>
+    <string name="complicated_ti_url">http://www4.ti.ch/index.php?id=24347
+    </string>
+    <string name="complicated_ti_phone"></string>
+    <string name="complicated_ti_email"></string>
+
+    <!-- JU -->
+    <string name="complicated_ju_text">Les renseignements peuvent être obtenus
+        auprès du Service des automobiles.
+        Art 126 OAC.
+    </string>
+    <string name="complicated_ju_url">http://www.jura.ch/DFJP/OVJ.html</string>
+    <string name="complicated_ju_phone">+41 (0)32 420 71 21</string>
+    <string name="complicated_ju_email"></string>
+    <string name="number_of_requests_exceeded">Plus de recherches possibles
+        aujourd\'hui dans ce canton.
+    </string>
+
+    <string name="pref_clear_warnings">Montrer les avertissements à nouveau
+    </string>
+
+    <string name="rate_this_app_title">Noter cette app</string>
+    <string name="rate_this_app_text">Si vous aimez cette app, pensez à lui
+        mettre une note sur Google Play!
+    </string>
+    <string name="rate_this_app_rate_now">Noter</string>
+    <string name="rate_this_app_rate_later">Plus tard</string>
+    <string name="rate_this_app_already_rated">Déjà fait</string>
+
+
+    <string name="speech_say_number">Prononcez le numéro (conseil: chiffre après
+        chiffre)
+    </string>
+    <string name="speech_canton_not_supported">Ce service n\'est pas disponible
+        dans le canton %s.
+    </string>
+    <string name="speech_unknown_query">Désolé, je n\'ai pas compris votre
+        requête, veuillez recommencer.
+    </string>
+    <string name="speech_pending_search">Recherche en cours pour le numéro %1$s,
+        %2$d.
+    </string>
+    <string name="speech_hidden_data">Désolé, le détenteur du numéro %1$s, %2$d
+        a demandé à ce que son identité ne
+        soit pas diffusée.
+    </string>
+    <string name="speech_not_found">Désolé, le registre ne contient aucune
+        information à propos du numéro %1$s,
+        %2$d.
+    </string>
+    <string name="speech_silent">Désolé, je n\'ai rien entendu. Veuillez
+        recommencer.
+    </string>
+    <string name="speech_error">Désolé, une erreur s\'est produite.</string>
+    <string name="speech_owner_found">Le numéro %1$s, %2$d appartient à %3$s,
+        %4$s, %5$s, %6$d %7$s.
+    </string>
+    <string name="vocal_search_button_text">Prononcer le numéro</string>
+
+    <string name="too_many_requests_title">Slow down…</string>
+    <string name="too_many_requests_message">Trop d\'essais pour ce canton.
+        Ré-essayez demain.
+    </string>
+    <string name="warn_outside_sms_hours">Dans la plupart des cantons, ce service est disponible
+        de 6 heures à 22 heures uniquement.
+    </string>
+    <string name="warn_outside_sms_hours_continue_anyway">Continuer quand même
+    </string>
+    <string name="warn_outside_sms_hours_cancel">Annuler</string>
+    <string name="bookmark_context_menu_remove_all">Tout supprimer</string>
+    <string name="bookmark_remove_all_confirmation">Voulez-vous vraiment supprimer tous les favoris ?</string>
+    <string name="plate_owner_remarks_hint">Notes personnelles…</string>
+    <string name="plate_owner_remarks_saved_toast">Notes enregistrées.</string>
+    <string name="drawer_open">Ouvrir</string>
+    <string name="drawer_close">Fermer</string>
+</resources>

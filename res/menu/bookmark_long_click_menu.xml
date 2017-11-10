@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/bookmark_long_click_popupmenu">
+        <item
+                android:id="@+id/bookmark_long_click_popupmenu_open"
+                android:title="@string/plate_owner_open"/>
+        <item
+                android:id="@+id/bookmark_long_click_popupmenu_remove_bookmark"
+                android:title="@string/plate_owner_remove_bookmark"/>
+    </group>
+</menu>

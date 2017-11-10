@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <TextView
+            android:id="@+id/license_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="fill"
+            android:text="Autoindex FR+VS is a proprietary program. It is strictly forbidden to distribute,
+modify, sell, publish, merge, sublicense or copy this software without authors agreement.\n
+  This program uses the droidpersistence API licensed under the GNU GPL v3, Apache Commons (Apache License 2.0), and
+The Java Cryptography Extension (MIT license).\n
+  It is delivered 'as is' and we do not provide any guarantee that it will work for you.\n
+  We cannot be held responsible for any damage related or caused by this application.\n
+  By using it, you agree to US and Swiss laws, as well as the ones from the country you bought and use it.\n
+You are as well agreeing the terms of use of the automobile offices databases you search into.
+We would like to stress the fact that most of these offices record all your queries along with personal information
+such as your IP address.\n\n
+Swiss AutoIndex est un programme propriétaire et de ce fait il est interdit de le re-distribuer, le modifier, le vendre,
+l\'inclure dans d'autres programmes, le publier, d\'en redéfinir la licence ou de le copier sans autorisation expresse
+de ses auteurs.\n
+L\'utilisation de ce programme implique que vous acceptez les lois suisses et américaines ainsi que
+celles du pays dans lequel vous avez acheté et utilisez cette application. De plus, vous êtes soumis aux conditions
+d\'utilisation des Autoindex des offices de circulation dans lesquels vous effectuez des recherches. Nous aimerions vous
+rendre attentifs au fait que la plupart des exploitants de ces registres enregistrent vos requêtes ainsi que des
+informations personnelles telles que votre adresse IP.\n
+Nous déclinons toute responsabilité en cas de dommages ou problèmes relatifs à ou causés par cette application et ne
+pouvons offrir aucune garantie concernant sa bonne marche ainsi que son utilisation."/>
+</ScrollView>

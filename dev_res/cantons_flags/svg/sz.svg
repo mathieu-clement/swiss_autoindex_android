@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="273" width="218">
+<path d="m2 2v161.6c0 59.3 47.91 107.4 107 107.4 59.1 0 107-48.1 107-107.4v-161.6z" stroke="#000" stroke-width="4" fill="#f00000"/>
+<path d="m134 44h30v-30h10v30h30v10h-30v30h-10v-30h-30z" stroke="#000" stroke-width="2" fill="#fff"/>
+</svg>

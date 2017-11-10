@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+
+    ######################################################################
+    ######### MODIFY OTHER LAYOUT FILES (layout-v15) as well !!! #########
+    ######################################################################
+
+
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="horizontal"
+              android:background="#222"
+              android:textColor="#000">
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="#000">
+
+        <LinearLayout
+                android:id="@+id/plate_owner_plate_linear_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#eaedea"
+                android:padding="10dp">
+
+            <ImageView android:src="@drawable/flag_ch"
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:layout_alignParentRight="true"/>
+
+            <TextView
+                    android:id="@+id/plate_owner_plate_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="26sp"
+                    android:textColor="#000"
+                    android:text="GE 12345"/>
+
+            <ImageView android:id="@+id/plate_owner_canton_flag_imageview"
+                       android:layout_width="30dp"
+                       android:layout_height="30dp"
+                       android:layout_alignParentRight="true"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/plate_owner_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Les Entreprises Dupont SARL
+            Rue des Petites Rames 25
+            1220 Plan-les-Ouates"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            >
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:gravity="center">
+
+            <Button
+                    android:id="@+id/plate_owner_lookup_in_phone_directory_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plate_owner_lookup_in_phone_directory"/>
+
+            <Button
+                    android:id="@+id/plate_owner_bookmark_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plate_owner_bookmark"/>
+
+            <Button
+                    android:id="@+id/plate_owner_save_as_contact_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plate_owner_save_as_contact"/>
+
+            <Button
+                    android:id="@+id/plate_owner_see_on_map_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plate_owner_see_on_map"/>
+
+            <Button
+                    android:id="@+id/plate_owner_share_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plate_owner_share"/>
+            <EditText
+                    android:id="@+id/plate_owner_remarks_edittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/plate_owner_remarks_hint"
+                    android:visibility="invisible"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--
+
+
+            ######################################################################
+            ######### MODIFY OTHER LAYOUT FILES (layout-v15) as well !!! #########
+            ######################################################################
+
+
+        -->
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+- Update all bookmarks
+- Add note along bookmark (Marque, date d'observation, lieu d'observation, etc.)

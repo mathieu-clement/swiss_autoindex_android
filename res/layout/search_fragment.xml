@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:theme="@android:style/Theme.Holo.Light"
+        android:background="@android:color/white">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="10dp">
+        <ImageView android:src="@drawable/flag_ch"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentLeft="true"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#000"
+                  android:text="AutoIndex Premium"
+                  android:gravity="center"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="20sp"
+                  android:layout_centerInParent="true"/>
+        <ImageView android:src="@drawable/flag_ch"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#dddddd"
+            android:gravity="center"
+            android:padding="10dp">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <Spinner
+                    android:id="@+id/search_canton_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <com.mathieuclement.swiss.autoindex.android.app.fragments.search.PlateAutoCompleteTextView
+                    android:id="@+id/search_plate_edittext"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="26sp"
+                    android:inputType="number"
+                    android:maxLength="6">
+
+                <requestFocus/>
+            </com.mathieuclement.swiss.autoindex.android.app.fragments.search.PlateAutoCompleteTextView>
+
+            <ImageView
+                    android:id="@+id/search_canton_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <Spinner
+                android:id="@+id/search_plate_type_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+        <Button
+                android:id="@+id/recent_searches_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/recent_searches_button_text"
+                android:drawableTop="@android:drawable/ic_menu_recent_history"/>
+
+        <Button
+                android:id="@+id/search_owner_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#ffff0000"
+                android:shadowColor="#ffff0000"
+                android:text="@string/search_owner_button_text"
+                android:drawableTop="@android:drawable/ic_menu_search"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="-15dp">
+
+        <Button
+                android:id="@+id/vocal_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/vocal_search_button_text"
+                android:drawableTop="@android:drawable/ic_btn_speak_now"/>
+    </RelativeLayout>
+</LinearLayout>
